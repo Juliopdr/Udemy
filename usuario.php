@@ -54,7 +54,7 @@ class Usuario{
 			$row = $results[0];
 
 			$this->setIdusuario($row['idusuario']);
-			$this->setDeslogin($row['dealogin']);
+			$this->setDeslogin($row['deslogin']);
 			$this->setDessenha($row['dessenha']);
 			$this->setDtcadastro(new DateTime($row['dtcadastro']));
 		}
